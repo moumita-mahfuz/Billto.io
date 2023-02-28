@@ -1,13 +1,10 @@
 import 'dart:developer';
-
-import 'package:billto/screen/firstscreen/widgets/bannerwidget.dart';
-import 'package:billto/screen/firstscreen/widgets/billtologo.dart';
-import 'package:billto/screen/firstscreen/widgets/buttonwidget.dart';
-import 'package:billto/screen/firstscreen/widgets/ellipse2widget1.dart';
-import 'package:billto/screen/firstscreen/widgets/loginwidget.dart';
+import 'package:billto/screen/WelcomeScreen/widget/ServiceSection.dart';
+import 'package:billto/screen/WelcomeScreen/widget/bannerwidget.dart';
+import 'package:billto/screen/WelcomeScreen/widget/billtologo.dart';
+import 'package:billto/screen/WelcomeScreen/widget/buttonwidget.dart';
+import 'package:billto/screen/WelcomeScreen/widget/loginwidget.dart';
 import 'package:flutter/material.dart';
-
-import '../firstscreen/widgets/ServiceSection.dart';
 
 class WelcomeScreen extends StatelessWidget {
   const WelcomeScreen({Key? key}) : super(key: key);

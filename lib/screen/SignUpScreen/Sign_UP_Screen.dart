@@ -2,6 +2,8 @@ import 'dart:ui';
 import 'package:flutter/material.dart';
 import 'package:simple_icons/simple_icons.dart';
 
+import '../Dashboard/Dashboard_Screen.dart';
+
 class SignUpPage extends StatelessWidget {
   const SignUpPage({Key? key}) : super(key: key);
 
@@ -144,7 +146,14 @@ class SignUpPage extends StatelessWidget {
                     // minWidth: double.infinity,
                     minWidth: 300,
                     height: 50,
-                    onPressed: () {},
+                    onPressed: () {
+                      Navigator.push(
+                        context,
+                        MaterialPageRoute(
+                          builder: (context) => DashBoard(),
+                        ),
+                      );
+                    },
                     color: Color(0xFFFFB317),
                     elevation: 5,
                     shape: RoundedRectangleBorder(

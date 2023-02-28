@@ -40,6 +40,12 @@ dependencies:
   auto_size_text: ^3.0.0
   flutter_svg_provider: ^1.0.3
   simple_icons: ^7.10.0
+  flutter_screen_scaler: ^2.1.0
+  sizer: ^2.0.15
+  responsive_sizer: ^3.0.5+1
+  image_picker: ^0.8.5+1
+  currencylistpicker: ^0.0.2-nullsafety.0
+  date_field: ^3.0.1
   linear_timer: ^2.0.0
 
 dev_dependencies:
@@ -51,7 +57,7 @@ dev_dependencies:
   # activated in the `analysis_options.yaml` file located at the root of your
   # package. See that file for information about deactivating specific lint
   # rules and activating additional ones.
-  flutter_lints: ^1.0.0
+  flutter_lints: ^2.0.1
 
 # For information on the generic Dart part of this file, see the
 # following page: https://dart.dev/tools/pub/pubspec
@@ -72,6 +78,13 @@ flutter:
     - assets/images/billlogo.png
     - assets/images/documentlogo.png
     - assets/images/grouplogo.png
+    - assets/images/wid_logo.png
+    - assets/images/reports.png
+    - assets/images/customar.png
+    - assets/images/settings.png
+    - assets/images/add_user.png
+    - assets/images/my_invoices.png
+    - assets/images/new_invoices.png
   #   - images/a_dot_ham.jpeg
 
   # An image asset can refer to one or more resolution-specific "variants", see

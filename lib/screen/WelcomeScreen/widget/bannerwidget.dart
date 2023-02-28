@@ -1,8 +1,10 @@
-import 'package:billto/screen/firstscreen/widgets/BackBannerWidgetSec1.dart';
-import 'package:billto/screen/firstscreen/widgets/bannerwidget2.dart';
-import 'package:billto/screen/firstscreen/widgets/widget3.dart';
+
+import 'package:billto/screen/WelcomeScreen/widget/widget3.dart';
 import 'package:flutter/material.dart';
 import 'package:assorted_layout_widgets/assorted_layout_widgets.dart';
+
+import 'BackBannerWidgetSec1.dart';
+import 'bannerwidget2.dart';
 
 class BannerWidget5 extends StatelessWidget {
   @override
